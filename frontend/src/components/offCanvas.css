@@ -1,0 +1,22 @@
+.doctor-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+
+.doctor-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.doctor-img img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid;
+}
